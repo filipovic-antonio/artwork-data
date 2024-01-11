@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#artworkContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
